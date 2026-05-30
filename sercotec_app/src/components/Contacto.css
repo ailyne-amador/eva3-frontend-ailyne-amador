@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+/* ── Sección ── */
+.contacto {
+  background-color: #1a1a1a;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contacto__inner {
+  width: 100%;
+  max-width: 560px;
+}
+
+/* ── Encabezado ── */
+.contacto__encabezado {
+  margin-bottom: 48px;
+}
+
+.contacto__label {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #d4622a;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contacto__titulo {
+  font-family: 'Syne', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #faf9f7;
+  margin: 0 0 12px;
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.contacto__subtitulo {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #888;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* ── Formulario ── */
+.contacto__form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ── Campo genérico ── */
+.contacto__campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contacto__campo-label {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #aaa;
+  transition: color 0.2s ease;
+}
+
+.contacto__campo:focus-within .contacto__campo-label {
+  color: #d4622a;
+}
+
+/* ── Inputs y textarea ── */
+.contacto__input,
+.contacto__textarea {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #faf9f7;
+  outline: none;
+  transition: border-color 0.2s ease;
+  resize: none;
+  width: 100%;
+}
+
+.contacto__input::placeholder,
+.contacto__textarea::placeholder {
+  color: #444;
+}
+
+.contacto__input:focus,
+.contacto__textarea:focus {
+  border-bottom-color: #d4622a;
+}
+
+.contacto__campo--error .contacto__input,
+.contacto__campo--error .contacto__textarea,
+.contacto__campo--error .contacto__select {
+  border-bottom-color: #c0392b;
+}
+
+/* ── Select ── */
+.contacto__select-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.contacto__select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #faf9f7;
+  outline: none;
+  transition: border-bottom-color 0.2s ease;
+  width: 100%;
+  appearance: none;
+  cursor: pointer;
+}
+
+.contacto__select option {
+  background-color: #1a1a1a;
+  color: #faf9f7;
+}
+
+.contacto__select:focus {
+  border-bottom-color: #d4622a;
+}
+
+.contacto__select-arrow {
+  position: absolute;
+  right: 4px;
+  color: #555;
+  font-size: 0.85rem;
+  pointer-events: none;
+  transition: color 0.2s ease;
+}
+
+.contacto__select:focus + .contacto__select-arrow {
+  color: #d4622a;
+}
+
+/* ── Error ── */
+.contacto__error {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  color: #c0392b;
+  margin-top: 2px;
+}
+
+/* ── Botón ── */
+.contacto__btn {
+  align-self: flex-start;
+  margin-top: 8px;
+  padding: 12px 32px;
+  background-color: #d4622a;
+  color: #fff;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 2px solid #d4622a;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.contacto__btn:hover {
+  background-color: transparent;
+  color: #d4622a;
+}
+
+/* ── Estado enviado ── */
+.contacto__exito {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.contacto__exito-icono {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #d4622a;
+  color: #d4622a;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto__exito-texto {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ccc;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.contacto__btn-reset {
+  background: none;
+  border: none;
+  color: #d4622a;
+  font-family: 'Syne', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

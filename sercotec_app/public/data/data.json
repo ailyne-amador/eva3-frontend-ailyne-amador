@@ -1,0 +1,83 @@
+{
+  "nosotros": {
+    "titulo": "Centro de Negocios Santiago",
+    "subtitulo": "Impulsamos el crecimiento de las micro, pequeñas y medianas empresas con acompañamiento especializado en gestión e innovación.",
+    "bloques": [
+      {
+        "id": 1,
+        "titulo": "¿Quiénes somos?",
+        "texto": "Somos una institución de SERCOTEC dedicada a ofrecer servicios integrales de apoyo a las MIPYMES, con enfoque especializado en gestión, innovación y fortalecimiento de capacidades. Nuestro objetivo es garantizar el correcto funcionamiento, sostenibilidad y eficiencia de los negocios de nuestros clientes."
+      },
+      {
+        "id": 2,
+        "titulo": "Acompañamiento preventivo",
+        "texto": "Ayudamos a prolongar la vida útil de los negocios y a aumentar su productividad mediante asesorías periódicas, anticipándonos a los desafíos antes de que afecten la operación."
+      },
+      {
+        "id": 3,
+        "titulo": "Acompañamiento correctivo",
+        "texto": "Resolvemos dificultades y desafíos que afecten la gestión o el desarrollo de las empresas, entregando soluciones concretas en el momento que más se necesitan."
+      },
+      {
+        "id": 4,
+        "titulo": "Nuestro compromiso",
+        "texto": "Trabajamos para que cada empresa que atendemos alcance su máximo potencial, con un equipo humano comprometido, metodologías probadas y un acompañamiento cercano y personalizado."
+      }
+    ]
+  },
+  "servicios": [
+    {
+      "id": 1,
+      "titulo": "Gestión de Negocios",
+      "descripcion": "Orientamos, capacitamos y apoyamos en áreas clave como administración, finanzas, marketing digital e innovación. Incluye diagnósticos, planes de mejora, talleres especializados y seguimiento continuo.",
+      "imagen": "/images/servicios/gestion.jpg",
+      "alt": "Asesoría en gestión de negocios"
+    },
+    {
+      "id": 2,
+      "titulo": "Eficiencia y Sostenibilidad",
+      "descripcion": "Incorporamos herramientas digitales, optimizamos procesos e implementamos estrategias de crecimiento a través de capacitaciones, asesorías técnicas y verificación de resultados.",
+      "imagen": "/images/servicios/eficiencia.jpg",
+      "alt": "Eficiencia y sostenibilidad empresarial"
+    },
+    {
+      "id": 3,
+      "titulo": "Vinculación Empresarial",
+      "descripcion": "Ofrecemos espacios de networking, articulación con instituciones públicas y privadas, y acceso a programas de financiamiento para potenciar el desarrollo de tu empresa.",
+      "imagen": "/images/servicios/vinculacion.jpg",
+      "alt": "Vinculación y networking empresarial"
+    }
+  ],
+  "faq": [
+  {
+    "id": 1,
+    "pregunta": "¿Cuáles son los servicios que ofrece el Centro de Negocios Santiago?",
+    "respuesta": "Ofrecemos tres líneas de servicio: Gestión de Negocios (administración, finanzas, marketing e innovación), Eficiencia y Sostenibilidad (digitalización y optimización de procesos) y Vinculación Empresarial (networking, articulación institucional y acceso a financiamiento)."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿A qué tipo de empresas están dirigidos sus servicios?",
+    "respuesta": "Nuestros servicios están orientados a micro, pequeñas y medianas empresas (MIPYMES) que buscan crecer, ordenar su gestión o acceder a nuevas oportunidades de negocio, sin importar el rubro o etapa en que se encuentren."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cómo puedo agendar una asesoría?",
+    "respuesta": "Puedes contactarnos directamente por correo a centro.santiago@centrossercotec.cl, visitarnos en Manuel Rodríguez Sur 749, Santiago (Metro Toesca), o escribirnos a través de nuestras redes sociales en Facebook."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿En qué horarios los puedo encontrar?",
+    "respuesta": "Nuestro centro está ubicado en Manuel Rodríguez Sur 749, Santiago, cerca del Metro Toesca. Para confirmar horarios de atención vigentes, te recomendamos escribirnos a centro.santiago@centrossercotec.cl o revisar nuestra página de Facebook."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Puedo acceder a financiamiento a través del Centro?",
+    "respuesta": "Sí. A través del servicio de Vinculación Empresarial te ayudamos a identificar y postular a programas de financiamiento público y privado disponibles para tu empresa, acompañándote durante todo el proceso."
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Cómo me contacto con ustedes?",
+    "respuesta": "Puedes escribirnos al correo centro.santiago@centrossercotec.cl, visitarnos en Manuel Rodríguez Sur 749, Santiago (Metro Toesca), o seguirnos en Facebook en facebook.com/centrodnsantiago para estar al día con nuestras actividades y novedades."
+  }
+]
+}
